@@ -1,0 +1,45 @@
+# Gradle / Android build outputs
+.gradle/
+build/
+app/build/
+app/.cxx/
+captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Local config — never commit
+local.properties
+*.keystore
+*.jks
+keystore.properties
+
+# IDE
+.idea/
+*.iml
+.kotlin/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / dev artifacts
+*.log
+*.logcat
+debug_build.log
+
+# Vendored llama.cpp dev tarballs (not needed at build time — source lives under app/src/main/cpp/llama.cpp)
+llama-android.tar.gz
+llama-b9524/
+
+# Python (llama.cpp tooling)
+__pycache__/
+*.pyc
+.venv/
+
+# Native build outputs
+*.o
+*.obj

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NotifyAI</string>
+    <string name="notification_listener_label">NotifyAI Listener</string>
+</resources>
