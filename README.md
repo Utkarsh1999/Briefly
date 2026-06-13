@@ -7,6 +7,10 @@ digest — without sending anything off the device.
 
 > Internal package name is still `com.notifyai` (the project was renamed mid-way).
 
+> **Notes on what shipping this actually looked like** — capability probe
+> design, hardware ceilings, the 1 GB → 114 MB APK story, with logcat and
+> code refs: **[NOTES.md](NOTES.md)**.
+
 ## Features
 
 - **NotificationListenerService** captures incoming notifications and stores them in Room.
